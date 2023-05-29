@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+         background-color: beige;
+         margin: 0px; 
+        }
+        header{
+            padding-left: 10px;
+            background-color: white;
+            margin: 10px;
+        }
+        nav{
+            background-color: aliceblue;
+            padding: 3px;
+            box-shadow: -7px -7px 7px 1px rgba(0, 0, 0, 0.27) ; /* sombra nas caixas. olhar o inspecionar. clicar em add box shadow */
+        }
+        nav > aside{
+            text-decoration: none;
+            color: bisque;
+            font-weight: bold;
+            margin: 30px;
+        }
+        nav >a:hover{
+            text-decoration: underline;
+           
+        }
+        main{
+            background-color: aquamarine;
+            padding: 10px;
+            margin: 10px;
+           
+        }
+        article{
+            background-color: azure;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: blanchedalmond;
+        }
+        footer{
+            background-color: aqua;
+            color: black;
+            text-align:center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer> p {
+            margin: 1px;
+        }
+        div#bola{
+            height:100px;
+            width: 100px;
+            margin: 10px;
+            border-radius: 50%;
+            background-color: rgb(9, 123, 223);
+            
+        }
+    </style>
+</head>
+<body>
+    <header> 
+     <h1>Meu site</h1>
+     <nav>
+    <a href="X">Link</a>
+    <a href="X">Link</a>
+    <a href="X">Link</a>
+    <a href="X">Link</a>
+    <a href="X">Link</a>
+    <a href="X">Link</a>
+     </nav>
+    </header>
+    <main>
+      <section id="assuntos" >
+          <p> BTS </p>
+          
+      </section>
+      <section id="noticias">
+        <article>
+            <h2>Noticiais sobre BTS</h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dicta perspiciatis exercitationem, dolores hic id iste totam odio minus perferendis minima corporis. Laborum, atque voluptas doloremque quaerat soluta deserunt quidem.
+        <aside>
+            <p>Artigo escrito por KIM Brenda</p>
+        </aside>
+        </article>
+        <article>
+
+        </article>
+
+      </section>
+    </main>
+    <footer>
+     <p>Desenvolvido por Kim Brenda </p>
+    </footer>
+    <div id="bola"> </div>
+</body>
+</html>
