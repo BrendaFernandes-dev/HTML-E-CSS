@@ -143,7 +143,7 @@ main p{
   }
 
   main strong {
-     color: var(--cor4);
+    color: var(--cor4);
      font-weight: bold;
      }
 
